@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>AddNote</servlet-name>
+  	<display-name>AddNote</display-name>
+  	<description></description>
+  	<servlet-class>com.function.AddNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddNotes</servlet-name>
+  	<display-name>AddNotes</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.AddNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Add</servlet-name>
+  	<display-name>Add</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.Add</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AddInNote</servlet-name>
+  	<display-name>AddInNote</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.AddInNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ShowNote</servlet-name>
+  	<display-name>ShowNote</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.ShowNote</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Delete</servlet-name>
+  	<display-name>Delete</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.Delete</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Update</servlet-name>
+  	<display-name>Update</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.Update</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateInDb</servlet-name>
+  	<display-name>UpdateInDb</display-name>
+  	<description></description>
+  	<servlet-class>com.servlets.UpdateInDb</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddNote</servlet-name>
+  	<url-pattern>/AddNote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddNotes</servlet-name>
+  	<url-pattern>/AddNotes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Add</servlet-name>
+  	<url-pattern>/Add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AddInNote</servlet-name>
+  	<url-pattern>/AddInNote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ShowNote</servlet-name>
+  	<url-pattern>/ShowNote</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Delete</servlet-name>
+  	<url-pattern>/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Update</servlet-name>
+  	<url-pattern>/Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateInDb</servlet-name>
+  	<url-pattern>/UpdateInDb</url-pattern>
+  </servlet-mapping>
+</web-app>
